@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d251b799196879f4692ce6e7f0ab8555
+guid: b84e7581a1bedb54a8c5d882700ceb37
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,8 +9,11 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - ArcadeClassic
-  fallbackFontReferences: []
+  - Lato
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 35ffdcafa460be34e837df79c8be3f52, type: 3}
+  - {fileID: 12800000, guid: a0530fcff9a6d5844ad05a377be612a8, type: 3}
+  - {fileID: 12800000, guid: 981e3ac4c46db524ba0b3818b996be66, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

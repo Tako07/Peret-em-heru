@@ -281,12 +281,11 @@ MonoBehaviour:
   m_Name: FMODStudioSettings
   m_EditorClassIdentifier: 
   SwitchSettingsMigration: 1
-  HasSourceProject: 1
-  HasPlatforms: 1
+  HasSourceProject: 0
+  HasPlatforms: 0
   sourceProjectPath: ../../../../../Volumes/seagate/Curso composicion cemucver /Proyectos/juego
     egipcio/juego egipcio.fspro
-  sourceBankPath: ../../../../../Volumes/seagate/Curso composicion cemucver /Proyectos/juego
-    egipcio/Build
+  sourceBankPath: Assets/banks
   SourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -308,14 +307,8 @@ MonoBehaviour:
   VirtualChannelSettings: []
   RealChannelSettings: []
   Plugins: []
-  MasterBanks:
-  - Master
-  Banks:
-  - cutscenes
-  - musica_menu
-  - musica_nivel
-  - pasos
-  - sfx_menu
+  MasterBanks: []
+  Banks: []
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0

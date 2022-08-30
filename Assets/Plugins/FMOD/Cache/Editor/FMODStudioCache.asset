@@ -48,6 +48,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1047008
   Exists: 1
+--- !u!114 &-8929293561635660016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/musica_menu
+  m_EditorClassIdentifier: 
+  Path: event:/musica_menu
+  Guid:
+    Data1: -1665208855
+    Data2: 1278620622
+    Data3: -1578406504
+    Data4: 584310325
+  Banks:
+  - {fileID: 452260974070233277}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 74666
 --- !u!114 &-8143787851473157789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75,6 +102,51 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 49971
+--- !u!114 &-7801305963022726775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/cutscenes/cutscene_4
+  m_EditorClassIdentifier: 
+  Path: event:/cutscenes/cutscene_4
+  Guid:
+    Data1: -825160963
+    Data2: 1183771130
+    Data3: -386544734
+    Data4: 361680316
+  Banks:
+  - {fileID: -1312941000892304208}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 49903
+--- !u!114 &-7786545596824590360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/musica_nivel.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/banks/musica_nivel.bank
+  Name: musica_nivel
+  StudioPath: bank:/musica_nivel
+  lastModified: 637974046393706505
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-6735161920805837793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -146,6 +218,33 @@ MonoBehaviour:
   - Name: 
     Value: 1380
   Exists: 1
+--- !u!114 &-5503322966569941838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/cutscenes/cutscene_2
+  m_EditorClassIdentifier: 
+  Path: event:/cutscenes/cutscene_2
+  Guid:
+    Data1: 2022123367
+    Data2: 1244698105
+    Data3: 790920339
+    Data4: -1518189133
+  Banks:
+  - {fileID: -1312941000892304208}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 49694
 --- !u!114 &-4028295653166446551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -248,6 +347,57 @@ MonoBehaviour:
   lastModified: 637973926839638615
   FileSizes: []
   Exists: 1
+--- !u!114 &-2813722277053970855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/musica_nivel/zonas
+  m_EditorClassIdentifier: 
+  Name: zonas
+  StudioPath: 
+  Min: 1
+  Max: 3
+  Default: 1
+  ID:
+    data1: 1954975619
+    data2: 3945302195
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-2684137521851824607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/cutscenes/cutscene_3
+  m_EditorClassIdentifier: 
+  Path: event:/cutscenes/cutscene_3
+  Guid:
+    Data1: 1460472959
+    Data2: 1130946876
+    Data3: 1344336793
+    Data4: -845093743
+  Banks:
+  - {fileID: -1312941000892304208}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 49971
 --- !u!114 &-2376352091218171307
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -330,6 +480,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 49903
+--- !u!114 &-1682356139689036765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/banks/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637974046392579297
+  FileSizes:
+  - Name: 
+    Value: 1380
+  Exists: 1
 --- !u!114 &-1447465198353503300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -346,6 +516,24 @@ MonoBehaviour:
   Name: musica_menu
   StudioPath: bank:/musica_menu
   lastModified: 637973926839093524
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-1312941000892304208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/cutscenes.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/banks/cutscenes.bank
+  Name: cutscenes
+  StudioPath: bank:/cutscenes
+  lastModified: 637974046392789342
   FileSizes: []
   Exists: 1
 --- !u!114 &-1289385603514543891
@@ -387,6 +575,79 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1036
   Exists: 1
+--- !u!114 &-667014465096925494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/sfx_menu.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/banks/sfx_menu.bank
+  Name: sfx_menu
+  StudioPath: bank:/sfx_menu
+  lastModified: 637974046393936536
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-214302812700135605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/musica_nivel
+  m_EditorClassIdentifier: 
+  Path: event:/musica_nivel
+  Guid:
+    Data1: 424585906
+    Data2: 1270687319
+    Data3: -561791055
+    Data4: 1227761816
+  Banks:
+  - {fileID: -7786545596824590360}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -2813722277053970855}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 505846
+--- !u!114 &-214083446037872749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/boton_play
+  m_EditorClassIdentifier: 
+  Path: event:/boton_play
+  Guid:
+    Data1: -806223693
+    Data2: 1231420398
+    Data3: 1105944450
+    Data4: 394264404
+  Banks:
+  - {fileID: -667014465096925494}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4000
 --- !u!114 &-170136019823727043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -424,29 +685,98 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -5891767182909959851}
-  - {fileID: 1051746135860518762}
-  - {fileID: -1289385603514543891}
-  - {fileID: -1447465198353503300}
-  - {fileID: -4028295653166446551}
-  - {fileID: -3673008947075071683}
-  - {fileID: -3204011072313928655}
+  - {fileID: -1682356139689036765}
+  - {fileID: -1312941000892304208}
+  - {fileID: 2717024307857787162}
+  - {fileID: 452260974070233277}
+  - {fileID: -7786545596824590360}
+  - {fileID: 6085602928867079727}
+  - {fileID: -667014465096925494}
   EditorEvents:
-  - {fileID: -3509346918504747541}
-  - {fileID: -8143787851473157789}
-  - {fileID: 3733223253202484345}
-  - {fileID: 2058091733263730379}
-  - {fileID: -9042090296927022332}
-  - {fileID: 2953378833513572135}
-  - {fileID: 6438814277441374143}
-  - {fileID: 2382662239643789344}
+  - {fileID: -5503322966569941838}
+  - {fileID: -2684137521851824607}
+  - {fileID: 486245941880389378}
+  - {fileID: -7801305963022726775}
+  - {fileID: -8929293561635660016}
+  - {fileID: -214302812700135605}
+  - {fileID: 7316691838392465523}
+  - {fileID: -214083446037872749}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -1289385603514543891}
+  - {fileID: 2717024307857787162}
   StringsBanks:
-  - {fileID: -5891767182909959851}
-  cacheTime: 637973926839638615
+  - {fileID: -1682356139689036765}
+  cacheTime: 637974046393936536
   cacheVersion: 131591
+--- !u!114 &452260974070233277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/musica_menu.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/banks/musica_menu.bank
+  Name: musica_menu
+  StudioPath: bank:/musica_menu
+  lastModified: 637974046392949375
+  FileSizes: []
+  Exists: 1
+--- !u!114 &486245941880389378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/cutscenes/cutscene_1
+  m_EditorClassIdentifier: 
+  Path: event:/cutscenes/cutscene_1
+  Guid:
+    Data1: -366526002
+    Data2: 1267001759
+    Data3: 233619610
+    Data4: 993203574
+  Banks:
+  - {fileID: -1312941000892304208}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 48000
+--- !u!114 &551608623160734001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/pasos/pasos
+  m_EditorClassIdentifier: 
+  Name: pasos
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1765295801
+    data2: 3853753695
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &1051746135860518762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -546,6 +876,24 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 74666
+--- !u!114 &2717024307857787162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/banks/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637974046392489281
+  FileSizes: []
+  Exists: 1
 --- !u!114 &2837232005163970848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -701,6 +1049,24 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &6085602928867079727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/pasos.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/banks/pasos.bank
+  Name: pasos
+  StudioPath: bank:/pasos
+  lastModified: 637974046393836531
+  FileSizes: []
+  Exists: 1
 --- !u!114 &6140450326529749147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -771,6 +1137,34 @@ MonoBehaviour:
   - Name: Desktop
     Value: 66848
   Exists: 1
+--- !u!114 &7316691838392465523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/pasos
+  m_EditorClassIdentifier: 
+  Path: event:/pasos
+  Guid:
+    Data1: -1294587168
+    Data2: 1182735210
+    Data3: 439564719
+    Data4: -1291598190
+  Banks:
+  - {fileID: 6085602928867079727}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 551608623160734001}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 375
 --- !u!114 &7646042180137353762
 MonoBehaviour:
   m_ObjectHideFlags: 0

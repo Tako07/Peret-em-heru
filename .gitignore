@@ -43,3 +43,13 @@ Assembly-UnityScript-firstpass.unityproj
 *.suo
 Assembly-CSharp.csproj
 UserSettings/
+fmod_editor.log
+FMODUnity.csproj
+Assembly-CSharp.csproj
+fmod_editor.log
+FMODUnityEditor.csproj
+FMODUnityResonance.csproj
+FMODUnityResonanceEditor.csproj
+Assembly-CSharp.csproj
+Assets/Plugins/FMOD/Cache/*
+obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache

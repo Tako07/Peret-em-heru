@@ -144,7 +144,7 @@ MonoBehaviour:
   Path: Assets/banks/musica_nivel.bank
   Name: musica_nivel
   StudioPath: bank:/musica_nivel
-  lastModified: 637974046393706505
+  lastModified: 637980182060000000
   FileSizes: []
   Exists: 1
 --- !u!114 &-6735161920805837793
@@ -495,10 +495,10 @@ MonoBehaviour:
   Path: Assets/banks/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637974046392579297
+  lastModified: 637980182060000000
   FileSizes:
   - Name: 
-    Value: 1380
+    Value: 1512
   Exists: 1
 --- !u!114 &-1447465198353503300
 MonoBehaviour:
@@ -533,7 +533,7 @@ MonoBehaviour:
   Path: Assets/banks/cutscenes.bank
   Name: cutscenes
   StudioPath: bank:/cutscenes
-  lastModified: 637974046392789342
+  lastModified: 637980182060000000
   FileSizes: []
   Exists: 1
 --- !u!114 &-1289385603514543891
@@ -590,7 +590,7 @@ MonoBehaviour:
   Path: Assets/banks/sfx_menu.bank
   Name: sfx_menu
   StudioPath: bank:/sfx_menu
-  lastModified: 637974046393936536
+  lastModified: 637980182060000000
   FileSizes: []
   Exists: 1
 --- !u!114 &-214302812700135605
@@ -692,6 +692,7 @@ MonoBehaviour:
   - {fileID: -7786545596824590360}
   - {fileID: 6085602928867079727}
   - {fileID: -667014465096925494}
+  - {fileID: 2777106508201348919}
   EditorEvents:
   - {fileID: -5503322966569941838}
   - {fileID: -2684137521851824607}
@@ -701,12 +702,13 @@ MonoBehaviour:
   - {fileID: -214302812700135605}
   - {fileID: 7316691838392465523}
   - {fileID: -214083446037872749}
+  - {fileID: 3414246493281332501}
   EditorParameters: []
   MasterBanks:
   - {fileID: 2717024307857787162}
   StringsBanks:
   - {fileID: -1682356139689036765}
-  cacheTime: 637974046393936536
+  cacheTime: 637980182060000000
   cacheVersion: 131591
 --- !u!114 &452260974070233277
 MonoBehaviour:
@@ -723,7 +725,7 @@ MonoBehaviour:
   Path: Assets/banks/musica_menu.bank
   Name: musica_menu
   StudioPath: bank:/musica_menu
-  lastModified: 637974046392949375
+  lastModified: 637980182060000000
   FileSizes: []
   Exists: 1
 --- !u!114 &486245941880389378
@@ -891,7 +893,25 @@ MonoBehaviour:
   Path: Assets/banks/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637974046392489281
+  lastModified: 637980182060000000
+  FileSizes: []
+  Exists: 1
+--- !u!114 &2777106508201348919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/sfx_nivel.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/banks/sfx_nivel.bank
+  Name: sfx_nivel
+  StudioPath: bank:/sfx_nivel
+  lastModified: 637980182060000000
   FileSizes: []
   Exists: 1
 --- !u!114 &2837232005163970848
@@ -971,6 +991,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 375
+--- !u!114 &3414246493281332501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ambiente
+  m_EditorClassIdentifier: 
+  Path: event:/ambiente
+  Guid:
+    Data1: -1825937370
+    Data2: 1312448405
+    Data3: 2059772320
+    Data4: 993684700
+  Banks:
+  - {fileID: 2777106508201348919}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 5511261102493724071}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 20000
 --- !u!114 &3501026446172853069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1025,6 +1073,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 48000
+--- !u!114 &5511261102493724071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ambiente/ambiente_zonas
+  m_EditorClassIdentifier: 
+  Name: ambiente_zonas
+  StudioPath: 
+  Min: 1
+  Max: 3
+  Default: 1
+  ID:
+    data1: 2587048671
+    data2: 2103682292
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &6041220080899093650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1064,7 +1136,7 @@ MonoBehaviour:
   Path: Assets/banks/pasos.bank
   Name: pasos
   StudioPath: bank:/pasos
-  lastModified: 637974046393836531
+  lastModified: 637980182060000000
   FileSizes: []
   Exists: 1
 --- !u!114 &6140450326529749147

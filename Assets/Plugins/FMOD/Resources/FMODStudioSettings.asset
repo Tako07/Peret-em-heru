@@ -315,6 +315,7 @@ MonoBehaviour:
   - musica_nivel
   - pasos
   - sfx_menu
+  - sfx_nivel
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0

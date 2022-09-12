@@ -144,7 +144,7 @@ MonoBehaviour:
   Path: Assets/banks/musica_nivel.bank
   Name: musica_nivel
   StudioPath: bank:/musica_nivel
-  lastModified: 637980182060000000
+  lastModified: 637982091081294040
   FileSizes: []
   Exists: 1
 --- !u!114 &-6735161920805837793
@@ -495,7 +495,7 @@ MonoBehaviour:
   Path: Assets/banks/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637980182060000000
+  lastModified: 637982091080551410
   FileSizes:
   - Name: 
     Value: 1512
@@ -533,7 +533,7 @@ MonoBehaviour:
   Path: Assets/banks/cutscenes.bank
   Name: cutscenes
   StudioPath: bank:/cutscenes
-  lastModified: 637980182060000000
+  lastModified: 637974046392789342
   FileSizes: []
   Exists: 1
 --- !u!114 &-1289385603514543891
@@ -590,7 +590,7 @@ MonoBehaviour:
   Path: Assets/banks/sfx_menu.bank
   Name: sfx_menu
   StudioPath: bank:/sfx_menu
-  lastModified: 637980182060000000
+  lastModified: 637974046393936536
   FileSizes: []
   Exists: 1
 --- !u!114 &-214302812700135605
@@ -708,7 +708,7 @@ MonoBehaviour:
   - {fileID: 2717024307857787162}
   StringsBanks:
   - {fileID: -1682356139689036765}
-  cacheTime: 637980182060000000
+  cacheTime: 637982091081704438
   cacheVersion: 131591
 --- !u!114 &452260974070233277
 MonoBehaviour:
@@ -725,7 +725,7 @@ MonoBehaviour:
   Path: Assets/banks/musica_menu.bank
   Name: musica_menu
   StudioPath: bank:/musica_menu
-  lastModified: 637980182060000000
+  lastModified: 637974046392949375
   FileSizes: []
   Exists: 1
 --- !u!114 &486245941880389378
@@ -893,7 +893,7 @@ MonoBehaviour:
   Path: Assets/banks/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637980182060000000
+  lastModified: 637982091080502565
   FileSizes: []
   Exists: 1
 --- !u!114 &2777106508201348919
@@ -911,7 +911,7 @@ MonoBehaviour:
   Path: Assets/banks/sfx_nivel.bank
   Name: sfx_nivel
   StudioPath: bank:/sfx_nivel
-  lastModified: 637980182060000000
+  lastModified: 637982091081704438
   FileSizes: []
   Exists: 1
 --- !u!114 &2837232005163970848
@@ -1136,7 +1136,7 @@ MonoBehaviour:
   Path: Assets/banks/pasos.bank
   Name: pasos
   StudioPath: bank:/pasos
-  lastModified: 637980182060000000
+  lastModified: 637982091081352668
   FileSizes: []
   Exists: 1
 --- !u!114 &6140450326529749147

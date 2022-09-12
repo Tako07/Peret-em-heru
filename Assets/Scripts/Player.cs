@@ -6,22 +6,86 @@ using UnityEngine.InputSystem;
 public class Player : MonoBehaviour
 {
     // Start is called before the first frame update
-    [SerializeField] float movmentSpeed = 10;
-    private Rigidbody2D rigidBody;
     private Vector2 direction;
+
+    SpriteRenderer spriteRenderer;
+    
+    [SerializeField] float movementSpeed = 10;
+    
+    public Rigidbody2D rigidBody;
+    
+    public ContactFilter2D movementFilter;
+
+    public float collisionOffset = 0.05f;
+
+    List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
+   
+    Animator animator;
+
     void Start()
     {
         rigidBody = GetComponentInChildren<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        //Input
     }
-    private void FixedUpdate()
-    {
-        rigidBody.MovePosition(rigidBody.position + direction * movmentSpeed * Time.fixedDeltaTime);
+    private void FixedUpdate() {
+    // If input is pressed, Calls TryMove.
+        if(direction != Vector2.zero){
+            bool success = TryMove(direction);
+
+            if(!success){
+                success = TryMove(new Vector2(direction.x, 0));
+            
+                if(!success){
+                    success = TryMove(new Vector2(0, direction.y));
+                }
+            }
+        // Start walking animation
+        animator.SetBool("isWalking", success);
+        } else {
+            //Stop walking animation
+            animator.SetBool("isWalking", false);
+        } 
+        //Turn character to left or right 
+        if(direction.x < 0){
+            spriteRenderer.flipX = true;
+        } else if (direction.x > 0) {
+            spriteRenderer.flipX = false;
+        }
+
     }
+    /*Check if wheter character must move in three cases: 
+    */
+    private bool TryMove(Vector2 direction){
+        // If collided stop tring to move. 
+        if(direction != Vector2.zero)  {
+
+            int count = rigidBody.Cast(
+                direction,
+                movementFilter,
+                castCollisions,
+                movementSpeed * Time.fixedDeltaTime + collisionOffset);
+                
+            //If input is pressed, move 
+            if(count == 0){
+                rigidBody.MovePosition(rigidBody.position + direction * movementSpeed * Time.fixedDeltaTime);
+                return true;
+            } //If input is not pressed, stop
+            else {
+                return false;
+            }
+
+        } else {
+            return false;
+        }
+    }
+
     void OnMove(InputValue value)
     {
         direction = value.Get<Vector2>();

@@ -22,18 +22,19 @@ public class Player : MonoBehaviour
    
     Animator animator;
 
+    public bool enableMovement;
+    public bool hasTopper;
+    FMODUnity.StudioEventEmitter emisorpasos;
     void Start()
     {
+        enableMovement = true;
         rigidBody = GetComponentInChildren<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        //Input
-    }
+
     private void FixedUpdate() {
     // If input is pressed, Calls TryMove.
         if(direction != Vector2.zero){
@@ -86,8 +87,20 @@ public class Player : MonoBehaviour
         }
     }
 
-    void OnMove(InputValue value)
-    {
+
+    void OnMove(InputValue value){
         direction = value.Get<Vector2>();
+        emisorpasos = GameObject.Find("spasos").GetComponent<FMODUnity.StudioEventEmitter>();
+        //sonido pasos
+
+        if (direction != Vector2.zero)
+        {
+          if (!emisorpasos.IsPlaying()) emisorpasos.Play();
+        }
+        else
+        {
+            emisorpasos.Stop();
+        }
+
     }
 }

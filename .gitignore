@@ -51,3 +51,5 @@ FMODUnityEditor.csproj
 FMODUnityResonance.csproj
 FMODUnityResonanceEditor.csproj
 Assembly-CSharp.csproj
+Assembly-CSharp.csproj
+*.csproj

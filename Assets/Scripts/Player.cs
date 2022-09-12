@@ -9,21 +9,24 @@ public class Player : MonoBehaviour
     [SerializeField] float movmentSpeed = 10;
     private Rigidbody2D rigidBody;
     private Vector2 direction;
+    public bool enableMovement;
+    public bool hasTopper;
     void Start()
     {
+        enableMovement = true;
         rigidBody = GetComponentInChildren<Rigidbody2D>();
     }
 
     // Update is called once per frame
-    void Update()
-    {
+    void Update(){
+
     }
-    private void FixedUpdate()
-    {
-        rigidBody.MovePosition(rigidBody.position + direction * movmentSpeed * Time.fixedDeltaTime);
+    private void FixedUpdate(){
+        if(enableMovement)
+            rigidBody.MovePosition(rigidBody.position + direction * movmentSpeed * Time.fixedDeltaTime);
     }
-    void OnMove(InputValue value)
-    {
+
+    void OnMove(InputValue value){
         direction = value.Get<Vector2>();
     }
 }

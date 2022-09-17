@@ -6,6 +6,8 @@ TagManager:
   tags:
   - ArrowPanel
   - Topper
+  - boton_olay
+  - pasosagua
   layers:
   - Default
   - TransparentFX

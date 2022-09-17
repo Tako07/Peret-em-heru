@@ -103,4 +103,12 @@ public class Player : MonoBehaviour
         }
 
     }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if(other.tag == "pasosagua")
+        {
+            emisorpasos.EventInstance.setParameterByName("pasos", 1);
+        }
+    }
 }

@@ -20,5 +20,6 @@ public class Escriba : MonoBehaviour
     public void openUIPanel(){
         arrowPanel.GetComponent<RadomArrowDirections>().arrowQuantity = arrowQuantity;
         arrowPanel.SetActive(true);
+        Debug.Log("working");
     }
 }

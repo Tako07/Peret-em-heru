@@ -21,7 +21,6 @@ public class Interactable : MonoBehaviour
     private void OnDisable() {
         playerControls.Disable();
     }
-
     // Update is called once per frame
     void Update(){
 
@@ -29,7 +28,6 @@ public class Interactable : MonoBehaviour
         if(isInRange && isInteractable){
             interactAction.Invoke();
         }
-        
     }
     private void OnTriggerEnter2D(Collider2D other) {
         Debug.Log("here");
@@ -38,7 +36,6 @@ public class Interactable : MonoBehaviour
             Debug.Log("is in range now");
         }
     }
-
     private void OnTriggerExit2D(Collider2D other) {
         if (other.gameObject.CompareTag("Player")){
             isInRange = false;
@@ -46,3 +43,4 @@ public class Interactable : MonoBehaviour
         }
     }
 }
+

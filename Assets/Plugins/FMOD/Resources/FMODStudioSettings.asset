@@ -377,6 +377,7 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
+  - acertijo
   - cutscenes
   - musica_menu
   - musica_nivel

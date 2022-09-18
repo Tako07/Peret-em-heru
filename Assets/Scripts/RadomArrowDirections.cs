@@ -12,6 +12,7 @@ public class RadomArrowDirections : MonoBehaviour
     public int arrowQuantity;
     private int[] arrowDirections;
     private int nextArrow;
+    FMODUnity.StudioEventEmitter emisorflechas;
 
     private CharacterInput arrowControls;
     private Player player;
@@ -44,9 +45,20 @@ public class RadomArrowDirections : MonoBehaviour
         int randomPosition = Random.Range(0,4);
         return directions[randomPosition];
     }
+        //sonido de flechas
+
 
     private void DownPressed(InputAction.CallbackContext context){
         //reproduce sonido
+
+
+
+        emisorflechas = GameObject.Find("flecha_abajo").GetComponent<FMODUnity.StudioEventEmitter>();
+        emisorflechas.Play();
+
+
+
+
         if (arrowDirections[nextArrow] == 180){
             if (riddleCompleted())
                 Debug.Log("Empezar cinematica");
@@ -57,6 +69,10 @@ public class RadomArrowDirections : MonoBehaviour
     }
 
     private void UpPressed(InputAction.CallbackContext context){
+
+        emisorflechas = GameObject.Find("flecha_arriba").GetComponent<FMODUnity.StudioEventEmitter>();
+        emisorflechas.Play();
+
         if (arrowDirections[nextArrow] == 0){
             if (riddleCompleted())
                 Debug.Log("Empezar cinematica");
@@ -67,6 +83,10 @@ public class RadomArrowDirections : MonoBehaviour
     }
 
     private void LeftPressed(InputAction.CallbackContext context){
+
+        emisorflechas = GameObject.Find("flecha_izquierda").GetComponent<FMODUnity.StudioEventEmitter>();
+        emisorflechas.Play();
+
         if (arrowDirections[nextArrow] == 90){
             if (riddleCompleted())
                 Debug.Log("Empezar cinematica");
@@ -77,6 +97,10 @@ public class RadomArrowDirections : MonoBehaviour
     }
 
     private void RightPressed(InputAction.CallbackContext context){
+
+        emisorflechas = GameObject.Find("flecha_derecha").GetComponent<FMODUnity.StudioEventEmitter>();
+        emisorflechas.Play();
+
         if (arrowDirections[nextArrow] == -90){
             if (riddleCompleted())
                 Debug.Log("Empezar cinematica");

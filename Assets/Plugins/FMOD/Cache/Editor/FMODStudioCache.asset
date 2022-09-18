@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-9193532683365704564
+--- !u!114 &-8885381771443573787
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9,21 +9,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/pasos/pasos
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx nivel/sfx acertijo/flecha_abajo
   m_EditorClassIdentifier: 
-  Name: pasos
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 1765295801
-    data2: 3853753695
-  Type: 1
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
+  Path: event:/sfx nivel/sfx acertijo/flecha_abajo
+  Guid:
+    Data1: 2087717176
+    Data2: 1170573092
+    Data3: 1816217514
+    Data4: -708126791
+  Banks:
+  - {fileID: 1485922926687633880}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
 --- !u!114 &-8695227867398181696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43,7 +46,7 @@ MonoBehaviour:
     Data3: 790920339
     Data4: -1518189133
   Banks:
-  - {fileID: -6293453969046695346}
+  - {fileID: 1816289391042610130}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -51,7 +54,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 49694
---- !u!114 &-8571012932973617443
+--- !u!114 &-8221186691195187204
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -60,36 +63,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx nivel/sfx acertijo/flecha_arriba
   m_EditorClassIdentifier: 
-  Path: Assets/banks/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 637989652529268266
-  FileSizes:
-  - Name: 
-    Value: 1648
-  Exists: 1
---- !u!114 &-6293453969046695346
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/cutscenes.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/banks/cutscenes.bank
-  Name: cutscenes
-  StudioPath: bank:/cutscenes
-  lastModified: 637973136284092296
-  FileSizes: []
-  Exists: 1
---- !u!114 &-5555703087209143660
+  Path: event:/sfx nivel/sfx acertijo/flecha_arriba
+  Guid:
+    Data1: -1472656382
+    Data2: 1157595208
+    Data3: 980148634
+    Data4: -14313506
+  Banks:
+  - {fileID: 1485922926687633880}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &-8160954230076696882
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -101,13 +93,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/sfx_menu.bank
   m_EditorClassIdentifier: 
-  Path: Assets/banks/sfx_menu.bank
+  Path: ../../../../../Volumes/seagate/Curso composicion cemucver /Proyectos/juego
+    egipcio/Build/Desktop/sfx_menu.bank
   Name: sfx_menu
   StudioPath: bank:/sfx_menu
-  lastModified: 637989652529405103
-  FileSizes: []
+  lastModified: 637990426640000000
+  FileSizes:
+  - Name: Desktop
+    Value: 51072
   Exists: 1
---- !u!114 &-5489354280629301101
+--- !u!114 &-7353414032710636771
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -119,49 +114,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/sfx_nivel.bank
   m_EditorClassIdentifier: 
-  Path: Assets/banks/sfx_nivel.bank
+  Path: ../../../../../Volumes/seagate/Curso composicion cemucver /Proyectos/juego
+    egipcio/Build/Desktop/sfx_nivel.bank
   Name: sfx_nivel
   StudioPath: bank:/sfx_nivel
-  lastModified: 637986213238080349
-  FileSizes: []
+  lastModified: 637990426640000000
+  FileSizes:
+  - Name: Desktop
+    Value: 4585472
   Exists: 1
---- !u!114 &-5395799823648046603
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/musica_menu.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/banks/musica_menu.bank
-  Name: musica_menu
-  StudioPath: bank:/musica_menu
-  lastModified: 637989652529380449
-  FileSizes: []
-  Exists: 1
---- !u!114 &-4584697779679452513
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/pasos.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/banks/pasos.bank
-  Name: pasos
-  StudioPath: bank:/pasos
-  lastModified: 637986213237600486
-  FileSizes: []
-  Exists: 1
---- !u!114 &-3572179867535530160
+--- !u!114 &-5686364418670739475
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -171,24 +133,79 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/musica_menu
+  m_Name: event:/musica/musica_nivel
   m_EditorClassIdentifier: 
-  Path: event:/musica_menu
+  Path: event:/musica/musica_nivel
   Guid:
-    Data1: -1665208855
-    Data2: 1278620622
-    Data3: -1578406504
-    Data4: 584310325
+    Data1: 424585906
+    Data2: 1270687319
+    Data3: -561791055
+    Data4: 1227761816
   Banks:
-  - {fileID: -5395799823648046603}
+  - {fileID: -4405677961097315723}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
+  Parameters:
+  - {fileID: -4672364269363583276}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 505846
+--- !u!114 &-5426505858310872224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx nivel/sfx acertijo/interaccion_objeto
+  m_EditorClassIdentifier: 
+  Path: event:/sfx nivel/sfx acertijo/interaccion_objeto
+  Guid:
+    Data1: -1686347159
+    Data2: 1260845645
+    Data3: -2048639080
+    Data4: -345733379
+  Banks:
+  - {fileID: -7353414032710636771}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 74666
---- !u!114 &-2262219213003727361
+  Length: 0
+--- !u!114 &-5211182083333908397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx menu/boton_play
+  m_EditorClassIdentifier: 
+  Path: event:/sfx menu/boton_play
+  Guid:
+    Data1: -806223693
+    Data2: 1231420398
+    Data3: 1105944450
+    Data4: 394264404
+  Banks:
+  - {fileID: -8160954230076696882}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2600
+--- !u!114 &-4672364269363583276
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -212,7 +229,7 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &-1910087759609222101
+--- !u!114 &-4405677961097315723
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -224,13 +241,492 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/musica_nivel.bank
   m_EditorClassIdentifier: 
-  Path: Assets/banks/musica_nivel.bank
+  Path: ../../../../../Volumes/seagate/Curso composicion cemucver /Proyectos/juego
+    egipcio/Build/Desktop/musica_nivel.bank
   Name: musica_nivel
   StudioPath: bank:/musica_nivel
-  lastModified: 637986213237519731
-  FileSizes: []
+  lastModified: 637990426640000000
+  FileSizes:
+  - Name: Desktop
+    Value: 9651008
   Exists: 1
---- !u!114 &-1319523412391479541
+--- !u!114 &-3663847214007025080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../../../Volumes/seagate/Curso composicion cemucver /Proyectos/juego
+    egipcio/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637990426630000000
+  FileSizes:
+  - Name: Desktop
+    Value: 2264
+  Exists: 1
+--- !u!114 &-3321351731773327836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/flechas_op2/flechas de acertijo
+  m_EditorClassIdentifier: 
+  Name: flechas de acertijo
+  StudioPath: 
+  Min: 0
+  Max: 4
+  Default: 0
+  ID:
+    data1: 3930134241
+    data2: 1959075631
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-3249984232613034481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx nivel/sfx acertijo/flecha_derecha
+  m_EditorClassIdentifier: 
+  Path: event:/sfx nivel/sfx acertijo/flecha_derecha
+  Guid:
+    Data1: -387843294
+    Data2: 1220931806
+    Data3: -948856152
+    Data4: 1644518272
+  Banks:
+  - {fileID: 1485922926687633880}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &-469736330607205562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/cutscenes/cutscene_4
+  m_EditorClassIdentifier: 
+  Path: event:/cutscenes/cutscene_4
+  Guid:
+    Data1: -825160963
+    Data2: 1183771130
+    Data3: -386544734
+    Data4: 361680316
+  Banks:
+  - {fileID: 1816289391042610130}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 49903
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -3663847214007025080}
+  - {fileID: 6030700873956529724}
+  - {fileID: 1485922926687633880}
+  - {fileID: 1816289391042610130}
+  - {fileID: 3084566815501054433}
+  - {fileID: -4405677961097315723}
+  - {fileID: 7795704163691078418}
+  - {fileID: -8160954230076696882}
+  - {fileID: -7353414032710636771}
+  EditorEvents:
+  - {fileID: -8695227867398181696}
+  - {fileID: 3905177798321382714}
+  - {fileID: 5094805912803311816}
+  - {fileID: -469736330607205562}
+  - {fileID: 1101181322126638294}
+  - {fileID: -8221186691195187204}
+  - {fileID: -3249984232613034481}
+  - {fileID: -8885381771443573787}
+  - {fileID: 1828435990278465465}
+  - {fileID: 6139967315625366217}
+  - {fileID: 4332576234264199442}
+  - {fileID: -5686364418670739475}
+  - {fileID: 3259929960366193484}
+  - {fileID: 2202681187513027399}
+  - {fileID: -5211182083333908397}
+  - {fileID: 1001917418811846217}
+  - {fileID: -5426505858310872224}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 6030700873956529724}
+  StringsBanks:
+  - {fileID: -3663847214007025080}
+  cacheTime: 637990426640000000
+  cacheVersion: 131591
+--- !u!114 &1001917418811846217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx nivel/ambiente
+  m_EditorClassIdentifier: 
+  Path: event:/sfx nivel/ambiente
+  Guid:
+    Data1: -1825937370
+    Data2: 1312448405
+    Data3: 2059772320
+    Data4: 993684700
+  Banks:
+  - {fileID: -7353414032710636771}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 6770135296930725300}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 20000
+--- !u!114 &1101181322126638294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/flechas_op2
+  m_EditorClassIdentifier: 
+  Path: event:/flechas_op2
+  Guid:
+    Data1: -1978940270
+    Data2: 1259234759
+    Data3: 384030390
+    Data4: 696990510
+  Banks:
+  - {fileID: 1485922926687633880}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -3321351731773327836}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &1485922926687633880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/acertijo.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../../../Volumes/seagate/Curso composicion cemucver /Proyectos/juego
+    egipcio/Build/Desktop/acertijo.bank
+  Name: acertijo
+  StudioPath: bank:/acertijo
+  lastModified: 637990426630000000
+  FileSizes:
+  - Name: Desktop
+    Value: 183584
+  Exists: 1
+--- !u!114 &1816289391042610130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/cutscenes.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../../../Volumes/seagate/Curso composicion cemucver /Proyectos/juego
+    egipcio/Build/Desktop/cutscenes.bank
+  Name: cutscenes
+  StudioPath: bank:/cutscenes
+  lastModified: 637990426630000000
+  FileSizes:
+  - Name: Desktop
+    Value: 2609984
+  Exists: 1
+--- !u!114 &1828435990278465465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx nivel/sfx acertijo/papiro
+  m_EditorClassIdentifier: 
+  Path: event:/sfx nivel/sfx acertijo/papiro
+  Guid:
+    Data1: 1664120159
+    Data2: 1307443696
+    Data3: 473405106
+    Data4: 333239850
+  Banks:
+  - {fileID: 1485922926687633880}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2202681187513027399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx menu/click
+  m_EditorClassIdentifier: 
+  Path: event:/sfx menu/click
+  Guid:
+    Data1: -1294337943
+    Data2: 1285090169
+    Data3: 711800193
+    Data4: 1350188772
+  Banks:
+  - {fileID: -8160954230076696882}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 624
+--- !u!114 &3084566815501054433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/musica_menu.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../../../Volumes/seagate/Curso composicion cemucver /Proyectos/juego
+    egipcio/Build/Desktop/musica_menu.bank
+  Name: musica_menu
+  StudioPath: bank:/musica_menu
+  lastModified: 637990426640000000
+  FileSizes:
+  - Name: Desktop
+    Value: 1047008
+  Exists: 1
+--- !u!114 &3259929960366193484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx nivel/sfx personaje/pasos
+  m_EditorClassIdentifier: 
+  Path: event:/sfx nivel/sfx personaje/pasos
+  Guid:
+    Data1: -1294587168
+    Data2: 1182735210
+    Data3: 439564719
+    Data4: -1291598190
+  Banks:
+  - {fileID: 7795704163691078418}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 8596363139662166189}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1270
+--- !u!114 &3905177798321382714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/cutscenes/cutscene_3
+  m_EditorClassIdentifier: 
+  Path: event:/cutscenes/cutscene_3
+  Guid:
+    Data1: 1460472959
+    Data2: 1130946876
+    Data3: 1344336793
+    Data4: -845093743
+  Banks:
+  - {fileID: 1816289391042610130}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 49971
+--- !u!114 &4332576234264199442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/musica/musica_menu
+  m_EditorClassIdentifier: 
+  Path: event:/musica/musica_menu
+  Guid:
+    Data1: -1665208855
+    Data2: 1278620622
+    Data3: -1578406504
+    Data4: 584310325
+  Banks:
+  - {fileID: 3084566815501054433}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 74666
+--- !u!114 &5094805912803311816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/cutscenes/cutscene_1
+  m_EditorClassIdentifier: 
+  Path: event:/cutscenes/cutscene_1
+  Guid:
+    Data1: -366526002
+    Data2: 1267001759
+    Data3: 233619610
+    Data4: 993203574
+  Banks:
+  - {fileID: 1816289391042610130}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 48000
+--- !u!114 &6030700873956529724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../../../Volumes/seagate/Curso composicion cemucver /Proyectos/juego
+    egipcio/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637990426630000000
+  FileSizes:
+  - Name: Desktop
+    Value: 2036
+  Exists: 1
+--- !u!114 &6139967315625366217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx nivel/sfx acertijo/flecha_izquierda
+  m_EditorClassIdentifier: 
+  Path: event:/sfx nivel/sfx acertijo/flecha_izquierda
+  Guid:
+    Data1: 1293530769
+    Data2: 1300875234
+    Data3: 902641806
+    Data4: 1953081504
+  Banks:
+  - {fileID: 1485922926687633880}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &6770135296930725300
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -254,211 +750,7 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &-469736330607205562
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/cutscenes/cutscene_4
-  m_EditorClassIdentifier: 
-  Path: event:/cutscenes/cutscene_4
-  Guid:
-    Data1: -825160963
-    Data2: 1183771130
-    Data3: -386544734
-    Data4: 361680316
-  Banks:
-  - {fileID: -6293453969046695346}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 49903
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: -8571012932973617443}
-  - {fileID: -6293453969046695346}
-  - {fileID: 5091165213206655037}
-  - {fileID: -5395799823648046603}
-  - {fileID: -1910087759609222101}
-  - {fileID: -4584697779679452513}
-  - {fileID: -5555703087209143660}
-  - {fileID: -5489354280629301101}
-  EditorEvents:
-  - {fileID: -8695227867398181696}
-  - {fileID: 3905177798321382714}
-  - {fileID: 5094805912803311816}
-  - {fileID: -469736330607205562}
-  - {fileID: -3572179867535530160}
-  - {fileID: 446159511342781316}
-  - {fileID: 2438313789421937409}
-  - {fileID: 8316557141294276862}
-  - {fileID: 3798611371590052362}
-  - {fileID: 3128461937276354680}
-  EditorParameters: []
-  MasterBanks:
-  - {fileID: 5091165213206655037}
-  StringsBanks:
-  - {fileID: -8571012932973617443}
-  cacheTime: 637989652529405103
-  cacheVersion: 131591
---- !u!114 &446159511342781316
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/musica_nivel
-  m_EditorClassIdentifier: 
-  Path: event:/musica_nivel
-  Guid:
-    Data1: 424585906
-    Data2: 1270687319
-    Data3: -561791055
-    Data4: 1227761816
-  Banks:
-  - {fileID: -1910087759609222101}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -2262219213003727361}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 505846
---- !u!114 &2438313789421937409
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/pasos
-  m_EditorClassIdentifier: 
-  Path: event:/pasos
-  Guid:
-    Data1: -1294587168
-    Data2: 1182735210
-    Data3: 439564719
-    Data4: -1291598190
-  Banks:
-  - {fileID: -4584697779679452513}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -9193532683365704564}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1270
---- !u!114 &3128461937276354680
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/click
-  m_EditorClassIdentifier: 
-  Path: event:/click
-  Guid:
-    Data1: -1294337943
-    Data2: 1285090169
-    Data3: 711800193
-    Data4: 1350188772
-  Banks:
-  - {fileID: -5555703087209143660}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 624
---- !u!114 &3798611371590052362
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/ambiente
-  m_EditorClassIdentifier: 
-  Path: event:/ambiente
-  Guid:
-    Data1: -1825937370
-    Data2: 1312448405
-    Data3: 2059772320
-    Data4: 993684700
-  Banks:
-  - {fileID: -5489354280629301101}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -1319523412391479541}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 20000
---- !u!114 &3905177798321382714
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/cutscenes/cutscene_3
-  m_EditorClassIdentifier: 
-  Path: event:/cutscenes/cutscene_3
-  Guid:
-    Data1: 1460472959
-    Data2: 1130946876
-    Data3: 1344336793
-    Data4: -845093743
-  Banks:
-  - {fileID: -6293453969046695346}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 49971
---- !u!114 &5091165213206655037
+--- !u!114 &7795704163691078418
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -468,15 +760,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
+  m_Name: bank:/pasos.bank
   m_EditorClassIdentifier: 
-  Path: Assets/banks/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 637989652529252971
-  FileSizes: []
+  Path: ../../../../../Volumes/seagate/Curso composicion cemucver /Proyectos/juego
+    egipcio/Build/Desktop/pasos.bank
+  Name: pasos
+  StudioPath: bank:/pasos
+  lastModified: 637990426640000000
+  FileSizes:
+  - Name: Desktop
+    Value: 69024
   Exists: 1
---- !u!114 &5094805912803311816
+--- !u!114 &8596363139662166189
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -485,48 +780,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/cutscenes/cutscene_1
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/pasos/pasos
   m_EditorClassIdentifier: 
-  Path: event:/cutscenes/cutscene_1
-  Guid:
-    Data1: -366526002
-    Data2: 1267001759
-    Data3: 233619610
-    Data4: 993203574
-  Banks:
-  - {fileID: -6293453969046695346}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 48000
---- !u!114 &8316557141294276862
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/boton_play
-  m_EditorClassIdentifier: 
-  Path: event:/boton_play
-  Guid:
-    Data1: -806223693
-    Data2: 1231420398
-    Data3: 1105944450
-    Data4: 394264404
-  Banks:
-  - {fileID: -5555703087209143660}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2600
+  Name: pasos
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1765295801
+    data2: 3853753695
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1

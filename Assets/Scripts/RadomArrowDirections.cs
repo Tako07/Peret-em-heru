@@ -12,7 +12,7 @@ public class RadomArrowDirections : MonoBehaviour
     public int arrowQuantity;
     private int[] arrowDirections;
     private int nextArrow;
-    FMODUnity.StudioEventEmitter emisorflechas;
+    FMODUnity.StudioEventEmitter emisorflechas, emisorcuts, emisorsnap, emisorwhoosh;
     public string interactableObject;
     [SerializeField] GameObject cutscene1;
 
@@ -56,6 +56,7 @@ public class RadomArrowDirections : MonoBehaviour
 
 
         emisorflechas = GameObject.Find("flecha_abajo").GetComponent<FMODUnity.StudioEventEmitter>();
+        emisorwhoosh = GameObject.Find("whoosh").GetComponent<FMODUnity.StudioEventEmitter>();
         emisorflechas.Play();
 
 
@@ -63,6 +64,7 @@ public class RadomArrowDirections : MonoBehaviour
 
         if (arrowDirections[nextArrow] == 180){
             if (riddleCompleted())
+                emisorwhoosh.Play();
                 Debug.Log("Empezar cinematica");
         }
         else{
@@ -73,10 +75,12 @@ public class RadomArrowDirections : MonoBehaviour
     private void UpPressed(InputAction.CallbackContext context){
 
         emisorflechas = GameObject.Find("flecha_arriba").GetComponent<FMODUnity.StudioEventEmitter>();
+        emisorwhoosh = GameObject.Find("whoosh").GetComponent<FMODUnity.StudioEventEmitter>();
         emisorflechas.Play();
 
         if (arrowDirections[nextArrow] == 0){
             if (riddleCompleted())
+                emisorwhoosh.Play();
                 Debug.Log("Empezar cinematica");
         }
         else{
@@ -87,10 +91,12 @@ public class RadomArrowDirections : MonoBehaviour
     private void LeftPressed(InputAction.CallbackContext context){
 
         emisorflechas = GameObject.Find("flecha_izquierda").GetComponent<FMODUnity.StudioEventEmitter>();
+        emisorwhoosh = GameObject.Find("whoosh").GetComponent<FMODUnity.StudioEventEmitter>();
         emisorflechas.Play();
 
         if (arrowDirections[nextArrow] == 90){
             if (riddleCompleted())
+                emisorwhoosh.Play();
                 Debug.Log("Empezar cinematica");
         }
         else{
@@ -101,10 +107,12 @@ public class RadomArrowDirections : MonoBehaviour
     private void RightPressed(InputAction.CallbackContext context){
 
         emisorflechas = GameObject.Find("flecha_derecha").GetComponent<FMODUnity.StudioEventEmitter>();
+        emisorwhoosh = GameObject.Find("whoosh").GetComponent<FMODUnity.StudioEventEmitter>();
         emisorflechas.Play();
 
         if (arrowDirections[nextArrow] == -90){
             if (riddleCompleted())
+                emisorwhoosh.Play();
                 Debug.Log("Empezar cinematica");
         }
         else{
@@ -136,6 +144,10 @@ public class RadomArrowDirections : MonoBehaviour
             gameObject.SetActive(false);
             switch (interactableObject){
                 case "escriba":
+                    emisorcuts = GameObject.Find("cutscene_1").GetComponent<FMODUnity.StudioEventEmitter>();
+                    emisorsnap = GameObject.Find("snap").GetComponent<FMODUnity.StudioEventEmitter>();
+                    emisorsnap.Play();
+                    emisorcuts.Play();
                     cutscene1.SetActive(true);
                 break;
             }

@@ -13,6 +13,8 @@ public class RadomArrowDirections : MonoBehaviour
     private int[] arrowDirections;
     private int nextArrow;
     FMODUnity.StudioEventEmitter emisorflechas;
+    public string interactableObject;
+    [SerializeField] GameObject cutscene1;
 
     private CharacterInput arrowControls;
     private Player player;
@@ -132,6 +134,11 @@ public class RadomArrowDirections : MonoBehaviour
         }
         else{
             gameObject.SetActive(false);
+            switch (interactableObject){
+                case "escriba":
+                    cutscene1.SetActive(true);
+                break;
+            }
             return true;
         }
     }

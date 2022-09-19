@@ -46,7 +46,7 @@ MonoBehaviour:
     Data3: 790920339
     Data4: -1518189133
   Banks:
-  - {fileID: 2665745335907568781}
+  - {fileID: -5948739436018825044}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -73,7 +73,7 @@ MonoBehaviour:
     Data3: 439564719
     Data4: -1291598190
   Banks:
-  - {fileID: -3644923090418789592}
+  - {fileID: -5270903511628096619}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -149,7 +149,7 @@ MonoBehaviour:
     Data3: -1578406504
     Data4: 584310325
   Banks:
-  - {fileID: -4946460886335255508}
+  - {fileID: 7803608174666534854}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -197,7 +197,7 @@ MonoBehaviour:
     Data3: 2059772320
     Data4: 993684700
   Banks:
-  - {fileID: 5258574798300205369}
+  - {fileID: 2847266596147054758}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -225,7 +225,7 @@ MonoBehaviour:
     Data3: -1688131138
     Data4: 731100630
   Banks:
-  - {fileID: -6560744989728332254}
+  - {fileID: -5742215424504617895}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -252,7 +252,7 @@ MonoBehaviour:
     Data3: 1378797236
     Data4: 983487162
   Banks:
-  - {fileID: -6560744989728332254}
+  - {fileID: -5742215424504617895}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -260,7 +260,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 19451
---- !u!114 &-6560744989728332254
+--- !u!114 &-5948739436018825044
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -270,16 +270,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/acertijo.bank
+  m_Name: bank:/cutscenes.bank
   m_EditorClassIdentifier: 
   Path: ../../../../../Volumes/seagate/Curso composicion cemucver /Proyectos/juego
-    egipcio/Build/Desktop/acertijo.bank
-  Name: acertijo
-  StudioPath: bank:/acertijo
-  lastModified: 637992062700000000
+    egipcio/Build/Desktop/cutscenes.bank
+  Name: cutscenes
+  StudioPath: bank:/cutscenes
+  lastModified: 637992077720000000
   FileSizes:
   - Name: Desktop
-    Value: 4325472
+    Value: 2609984
   Exists: 1
 --- !u!114 &-5918434991003670586
 MonoBehaviour:
@@ -300,7 +300,7 @@ MonoBehaviour:
     Data3: 132836799
     Data4: 1611558323
   Banks:
-  - {fileID: -6560744989728332254}
+  - {fileID: -5742215424504617895}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -327,7 +327,7 @@ MonoBehaviour:
     Data3: 711800193
     Data4: 1350188772
   Banks:
-  - {fileID: 8453196372279989635}
+  - {fileID: 6901253780541378700}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -335,6 +335,27 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 624
+--- !u!114 &-5742215424504617895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/acertijo.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../../../Volumes/seagate/Curso composicion cemucver /Proyectos/juego
+    egipcio/Build/Desktop/acertijo.bank
+  Name: acertijo
+  StudioPath: bank:/acertijo
+  lastModified: 637992077720000000
+  FileSizes:
+  - Name: Desktop
+    Value: 4338368
+  Exists: 1
 --- !u!114 &-5686364418670739475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -390,6 +411,27 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-5270903511628096619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/pasos.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../../../Volumes/seagate/Curso composicion cemucver /Proyectos/juego
+    egipcio/Build/Desktop/pasos.bank
+  Name: pasos
+  StudioPath: bank:/pasos
+  lastModified: 637992077730000000
+  FileSizes:
+  - Name: Desktop
+    Value: 69024
+  Exists: 1
 --- !u!114 &-5211182083333908397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -436,7 +478,7 @@ MonoBehaviour:
     Data3: -219596398
     Data4: 1265920528
   Banks:
-  - {fileID: 2968787707167292225}
+  - {fileID: 6258325142571482329}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -444,27 +486,6 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
---- !u!114 &-4946460886335255508
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/musica_menu.bank
-  m_EditorClassIdentifier: 
-  Path: ../../../../../Volumes/seagate/Curso composicion cemucver /Proyectos/juego
-    egipcio/Build/Desktop/musica_menu.bank
-  Name: musica_menu
-  StudioPath: bank:/musica_menu
-  lastModified: 637992062700000000
-  FileSizes:
-  - Name: Desktop
-    Value: 1047008
-  Exists: 1
 --- !u!114 &-4672364269363583276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -508,7 +529,7 @@ MonoBehaviour:
     Data3: 980148634
     Data4: -14313506
   Banks:
-  - {fileID: -6560744989728332254}
+  - {fileID: -5742215424504617895}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -582,27 +603,6 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &-3644923090418789592
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/pasos.bank
-  m_EditorClassIdentifier: 
-  Path: ../../../../../Volumes/seagate/Curso composicion cemucver /Proyectos/juego
-    egipcio/Build/Desktop/pasos.bank
-  Name: pasos
-  StudioPath: bank:/pasos
-  lastModified: 637992062710000000
-  FileSizes:
-  - Name: Desktop
-    Value: 69024
-  Exists: 1
 --- !u!114 &-3321351731773327836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -654,6 +654,27 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
+--- !u!114 &-2143036728978020844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../../../Volumes/seagate/Curso composicion cemucver /Proyectos/juego
+    egipcio/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637992077720000000
+  FileSizes:
+  - Name: Desktop
+    Value: 2668
+  Exists: 1
 --- !u!114 &-1648382577243538141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -673,7 +694,7 @@ MonoBehaviour:
     Data3: 1619361961
     Data4: -2143980489
   Banks:
-  - {fileID: -6560744989728332254}
+  - {fileID: -5742215424504617895}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -681,6 +702,27 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 54099
+--- !u!114 &-1001829254854187475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/musica_nivel.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../../../Volumes/seagate/Curso composicion cemucver /Proyectos/juego
+    egipcio/Build/Desktop/musica_nivel.bank
+  Name: musica_nivel
+  StudioPath: bank:/musica_nivel
+  lastModified: 637992077730000000
+  FileSizes:
+  - Name: Desktop
+    Value: 9651008
+  Exists: 1
 --- !u!114 &-469736330607205562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -700,7 +742,7 @@ MonoBehaviour:
     Data3: -386544734
     Data4: 361680316
   Banks:
-  - {fileID: 2665745335907568781}
+  - {fileID: -5948739436018825044}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -721,15 +763,15 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 55797725673808869}
-  - {fileID: 2968787707167292225}
-  - {fileID: -6560744989728332254}
-  - {fileID: 2665745335907568781}
-  - {fileID: -4946460886335255508}
-  - {fileID: 663906927982913836}
-  - {fileID: -3644923090418789592}
-  - {fileID: 8453196372279989635}
-  - {fileID: 5258574798300205369}
+  - {fileID: -2143036728978020844}
+  - {fileID: 6258325142571482329}
+  - {fileID: -5742215424504617895}
+  - {fileID: -5948739436018825044}
+  - {fileID: 7803608174666534854}
+  - {fileID: -1001829254854187475}
+  - {fileID: -5270903511628096619}
+  - {fileID: 6901253780541378700}
+  - {fileID: 2847266596147054758}
   EditorEvents:
   - {fileID: -8695227867398181696}
   - {fileID: 3905177798321382714}
@@ -756,14 +798,15 @@ MonoBehaviour:
   - {fileID: -6869840860013558857}
   - {fileID: 3219393412421290652}
   - {fileID: -4958108902340860805}
+  - {fileID: 316715196185267644}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 2968787707167292225}
+  - {fileID: 6258325142571482329}
   StringsBanks:
-  - {fileID: 55797725673808869}
-  cacheTime: 637992062710000000
+  - {fileID: -2143036728978020844}
+  cacheTime: 637992077730000000
   cacheVersion: 131591
---- !u!114 &55797725673808869
+--- !u!114 &316715196185267644
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -772,39 +815,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx nivel/sfx acertijo/error
   m_EditorClassIdentifier: 
-  Path: ../../../../../Volumes/seagate/Curso composicion cemucver /Proyectos/juego
-    egipcio/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 637992062700000000
-  FileSizes:
-  - Name: Desktop
-    Value: 2632
-  Exists: 1
---- !u!114 &663906927982913836
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/musica_nivel.bank
-  m_EditorClassIdentifier: 
-  Path: ../../../../../Volumes/seagate/Curso composicion cemucver /Proyectos/juego
-    egipcio/Build/Desktop/musica_nivel.bank
-  Name: musica_nivel
-  StudioPath: bank:/musica_nivel
-  lastModified: 637992062700000000
-  FileSizes:
-  - Name: Desktop
-    Value: 9651008
-  Exists: 1
+  Path: event:/sfx nivel/sfx acertijo/error
+  Guid:
+    Data1: -1342875081
+    Data2: 1258456397
+    Data3: -2128431733
+    Data4: 1035645956
+  Banks:
+  - {fileID: -5742215424504617895}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &774105068631790714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -848,7 +876,7 @@ MonoBehaviour:
     Data3: -2048639080
     Data4: -345733379
   Banks:
-  - {fileID: 5258574798300205369}
+  - {fileID: 2847266596147054758}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -931,7 +959,7 @@ MonoBehaviour:
     Data3: 473405106
     Data4: 333239850
   Banks:
-  - {fileID: -6560744989728332254}
+  - {fileID: -5742215424504617895}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1035,27 +1063,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 624
---- !u!114 &2665745335907568781
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/cutscenes.bank
-  m_EditorClassIdentifier: 
-  Path: ../../../../../Volumes/seagate/Curso composicion cemucver /Proyectos/juego
-    egipcio/Build/Desktop/cutscenes.bank
-  Name: cutscenes
-  StudioPath: bank:/cutscenes
-  lastModified: 637992062700000000
-  FileSizes:
-  - Name: Desktop
-    Value: 2609984
-  Exists: 1
 --- !u!114 &2844209396406843162
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1075,7 +1082,7 @@ MonoBehaviour:
     Data3: -561791055
     Data4: 1227761816
   Banks:
-  - {fileID: 663906927982913836}
+  - {fileID: -1001829254854187475}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -1084,7 +1091,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 505846
---- !u!114 &2968787707167292225
+--- !u!114 &2847266596147054758
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1094,16 +1101,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
+  m_Name: bank:/sfx_nivel.bank
   m_EditorClassIdentifier: 
   Path: ../../../../../Volumes/seagate/Curso composicion cemucver /Proyectos/juego
-    egipcio/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 637992062700000000
+    egipcio/Build/Desktop/sfx_nivel.bank
+  Name: sfx_nivel
+  StudioPath: bank:/sfx_nivel
+  lastModified: 637992077730000000
   FileSizes:
   - Name: Desktop
-    Value: 3624
+    Value: 4585472
   Exists: 1
 --- !u!114 &3084566815501054433
 MonoBehaviour:
@@ -1145,7 +1152,7 @@ MonoBehaviour:
     Data3: 902641806
     Data4: 1953081504
   Banks:
-  - {fileID: -6560744989728332254}
+  - {fileID: -5742215424504617895}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1172,7 +1179,7 @@ MonoBehaviour:
     Data3: -1598675055
     Data4: -1932360357
   Banks:
-  - {fileID: -6560744989728332254}
+  - {fileID: -5742215424504617895}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -1227,7 +1234,7 @@ MonoBehaviour:
     Data3: 1344336793
     Data4: -845093743
   Banks:
-  - {fileID: 2665745335907568781}
+  - {fileID: -5948739436018825044}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -1281,7 +1288,7 @@ MonoBehaviour:
     Data3: -948856152
     Data4: 1644518272
   Banks:
-  - {fileID: -6560744989728332254}
+  - {fileID: -5742215424504617895}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1308,7 +1315,7 @@ MonoBehaviour:
     Data3: 233619610
     Data4: 993203574
   Banks:
-  - {fileID: 2665745335907568781}
+  - {fileID: -5948739436018825044}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -1316,27 +1323,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 48000
---- !u!114 &5258574798300205369
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/sfx_nivel.bank
-  m_EditorClassIdentifier: 
-  Path: ../../../../../Volumes/seagate/Curso composicion cemucver /Proyectos/juego
-    egipcio/Build/Desktop/sfx_nivel.bank
-  Name: sfx_nivel
-  StudioPath: bank:/sfx_nivel
-  lastModified: 637992062710000000
-  FileSizes:
-  - Name: Desktop
-    Value: 4585472
-  Exists: 1
 --- !u!114 &5353729638796878996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1356,7 +1342,7 @@ MonoBehaviour:
     Data3: 1816217514
     Data4: -708126791
   Banks:
-  - {fileID: -6560744989728332254}
+  - {fileID: -5742215424504617895}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1412,6 +1398,27 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
+--- !u!114 &6258325142571482329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../../../Volumes/seagate/Curso composicion cemucver /Proyectos/juego
+    egipcio/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637992077720000000
+  FileSizes:
+  - Name: Desktop
+    Value: 3624
+  Exists: 1
 --- !u!114 &6770135296930725300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1436,6 +1443,27 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &6901253780541378700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/sfx_menu.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../../../Volumes/seagate/Curso composicion cemucver /Proyectos/juego
+    egipcio/Build/Desktop/sfx_menu.bank
+  Name: sfx_menu
+  StudioPath: bank:/sfx_menu
+  lastModified: 637992077730000000
+  FileSizes:
+  - Name: Desktop
+    Value: 51072
+  Exists: 1
 --- !u!114 &7767558442872462986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1455,7 +1483,7 @@ MonoBehaviour:
     Data3: 1270976898
     Data4: -1511778851
   Banks:
-  - {fileID: -6560744989728332254}
+  - {fileID: -5742215424504617895}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -1484,6 +1512,27 @@ MonoBehaviour:
   - Name: Desktop
     Value: 69024
   Exists: 1
+--- !u!114 &7803608174666534854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/musica_menu.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../../../Volumes/seagate/Curso composicion cemucver /Proyectos/juego
+    egipcio/Build/Desktop/musica_menu.bank
+  Name: musica_menu
+  StudioPath: bank:/musica_menu
+  lastModified: 637992077720000000
+  FileSizes:
+  - Name: Desktop
+    Value: 1047008
+  Exists: 1
 --- !u!114 &8050118515095707423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1503,7 +1552,7 @@ MonoBehaviour:
     Data3: 8201880
     Data4: -501351272
   Banks:
-  - {fileID: -6560744989728332254}
+  - {fileID: -5742215424504617895}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -1511,27 +1560,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 53000
---- !u!114 &8453196372279989635
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/sfx_menu.bank
-  m_EditorClassIdentifier: 
-  Path: ../../../../../Volumes/seagate/Curso composicion cemucver /Proyectos/juego
-    egipcio/Build/Desktop/sfx_menu.bank
-  Name: sfx_menu
-  StudioPath: bank:/sfx_menu
-  lastModified: 637992062710000000
-  FileSizes:
-  - Name: Desktop
-    Value: 51072
-  Exists: 1
 --- !u!114 &8508895528607813459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1551,7 +1579,7 @@ MonoBehaviour:
     Data3: 1105944450
     Data4: 394264404
   Banks:
-  - {fileID: 8453196372279989635}
+  - {fileID: 6901253780541378700}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1626,7 +1654,7 @@ MonoBehaviour:
     Data3: 2140267392
     Data4: 60910587
   Banks:
-  - {fileID: -6560744989728332254}
+  - {fileID: -5742215424504617895}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1

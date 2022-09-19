@@ -12,7 +12,7 @@ public class RadomArrowDirections : MonoBehaviour
     public int arrowQuantity;
     private int[] arrowDirections;
     private int nextArrow;
-    FMODUnity.StudioEventEmitter emisorflechas, emisorcuts, emisorsnap, emisorwhoosh;
+    FMODUnity.StudioEventEmitter emisorflechas, emisorcuts, emisorsnap, emisorwhoosh, emisormal;
     public string interactableObject;
     [SerializeField] GameObject cutscene1;
 
@@ -57,6 +57,7 @@ public class RadomArrowDirections : MonoBehaviour
 
         emisorflechas = GameObject.Find("flecha_abajo").GetComponent<FMODUnity.StudioEventEmitter>();
         emisorwhoosh = GameObject.Find("whoosh").GetComponent<FMODUnity.StudioEventEmitter>();
+        emisormal = GameObject.Find("errorsfx").GetComponent<FMODUnity.StudioEventEmitter>();
         emisorflechas.Play();
 
 
@@ -68,6 +69,8 @@ public class RadomArrowDirections : MonoBehaviour
                 Debug.Log("Empezar cinematica");
         }
         else{
+            emisormal.Play();
+            emisorflechas.Stop();
             gameObject.SetActive(false);
         }
     }
@@ -76,6 +79,7 @@ public class RadomArrowDirections : MonoBehaviour
 
         emisorflechas = GameObject.Find("flecha_arriba").GetComponent<FMODUnity.StudioEventEmitter>();
         emisorwhoosh = GameObject.Find("whoosh").GetComponent<FMODUnity.StudioEventEmitter>();
+        emisormal = GameObject.Find("errorsfx").GetComponent<FMODUnity.StudioEventEmitter>();
         emisorflechas.Play();
 
         if (arrowDirections[nextArrow] == 0){
@@ -84,6 +88,8 @@ public class RadomArrowDirections : MonoBehaviour
                 Debug.Log("Empezar cinematica");
         }
         else{
+            emisormal.Play();
+            emisorflechas.Stop();
             gameObject.SetActive(false);
         }
     }
@@ -92,6 +98,7 @@ public class RadomArrowDirections : MonoBehaviour
 
         emisorflechas = GameObject.Find("flecha_izquierda").GetComponent<FMODUnity.StudioEventEmitter>();
         emisorwhoosh = GameObject.Find("whoosh").GetComponent<FMODUnity.StudioEventEmitter>();
+        emisormal = GameObject.Find("errorsfx").GetComponent<FMODUnity.StudioEventEmitter>();
         emisorflechas.Play();
 
         if (arrowDirections[nextArrow] == 90){
@@ -100,6 +107,8 @@ public class RadomArrowDirections : MonoBehaviour
                 Debug.Log("Empezar cinematica");
         }
         else{
+            emisormal.Play();
+            emisorflechas.Stop();
             gameObject.SetActive(false);
         }
     }
@@ -108,6 +117,7 @@ public class RadomArrowDirections : MonoBehaviour
 
         emisorflechas = GameObject.Find("flecha_derecha").GetComponent<FMODUnity.StudioEventEmitter>();
         emisorwhoosh = GameObject.Find("whoosh").GetComponent<FMODUnity.StudioEventEmitter>();
+        emisormal = GameObject.Find("errorsfx").GetComponent<FMODUnity.StudioEventEmitter>();
         emisorflechas.Play();
 
         if (arrowDirections[nextArrow] == -90){
@@ -116,6 +126,8 @@ public class RadomArrowDirections : MonoBehaviour
                 Debug.Log("Empezar cinematica");
         }
         else{
+            emisormal.Play();
+            emisorflechas.Stop();
             gameObject.SetActive(false);
         }
     }

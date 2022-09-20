@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Samples\Input System\1.3.0\Simple Demo\SimpleController_UsingActions.cs" />
+     <Compile Include="Assets\Scripts\VideoPlayer.cs" />
      <Compile Include="Assets\PalmAnimation.cs" />
      <Compile Include="Assets\Scripts\Interactable.cs" />
      <Compile Include="Assets\Scripts\RadomArrowDirections.cs" />
@@ -45,18 +46,18 @@
      <Compile Include="Assets\Samples\Input System\1.3.0\Simple Demo\SimpleControls.cs" />
      <Compile Include="Assets\Scripts\Boomerang.cs" />
      <Compile Include="Assets\Scripts\Escriba.cs" />
+     <Compile Include="Assets\Scripts\papirosfx.cs" />
      <Compile Include="Assets\Scripts\InteractionArea.cs" />
      <Compile Include="Assets\Scripts\FollowCamera.cs" />
      <Compile Include="Assets\Scripts\BushCollition.cs" />
      <Compile Include="Assets\Samples\Input System\1.3.0\Simple Demo\SimpleController_UsingActionAsset.cs" />
      <Compile Include="Assets\Scripts\Topper.cs" />
      <Compile Include="Assets\Samples\Input System\1.3.0\Simple Demo\SimpleController_UsingPlayerInput.cs" />
+     <Compile Include="Assets\Scripts\interaccion_objetosfx.cs" />
      <Compile Include="Assets\Scripts\Copa.cs" />
      <Compile Include="Assets\Samples\Input System\1.3.0\Simple Demo\SimpleController_UsingState.cs" />
      <Compile Include="Assets\trigger_audio.cs" />
      <Compile Include="Assets\Scripts\Arrow.cs" />
-     <Compile Include="Assets\Scripts\interaccion_objetosfx.cs" />
-     <Compile Include="Assets\Scripts\papirosfx.cs" />
      <None Include="Assets\UI\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\UI\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\UI\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

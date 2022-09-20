@@ -55,3 +55,4 @@ Assembly-CSharp.csproj
 *.csproj
 *.kra~
 *.log
+fmod_editor.log

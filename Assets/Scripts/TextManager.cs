@@ -90,6 +90,38 @@ public class TextManager : MonoBehaviour
         dialogsPanel.SetActive(true);
     }
 
+    public void DialogNearCopa(){
+        Debug.Log("Starting dialog");
+        GetCurrentDialog("near_escriba");
+        GameObject.Find("Protagonist").GetComponent<Player>().enableMovement = false;
+        canvasText.text= currentDialog[0];
+        dialogsPanel.SetActive(true);
+    }
+
+    public void DialogNearTopper(){
+        Debug.Log("Starting dialog");
+        GetCurrentDialog("near_escriba");
+        GameObject.Find("Protagonist").GetComponent<Player>().enableMovement = false;
+        canvasText.text= currentDialog[0];
+        dialogsPanel.SetActive(true);
+    }
+
+    public void DialogNearBoomerang(){
+        Debug.Log("Starting dialog");
+        GetCurrentDialog("near_escriba");
+        GameObject.Find("Protagonist").GetComponent<Player>().enableMovement = false;
+        canvasText.text= currentDialog[0];
+        dialogsPanel.SetActive(true);
+    }
+
+    public void DialogNearStatua(){
+        Debug.Log("Starting dialog");
+        GetCurrentDialog("near_escriba");
+        GameObject.Find("Protagonist").GetComponent<Player>().enableMovement = false;
+        canvasText.text= currentDialog[0];
+        dialogsPanel.SetActive(true);
+    }
+
     void NextDialog(InputAction.CallbackContext context){
         dialogNumber += 1;
         if(dialogNumber >= currentDialog.Length){

@@ -18,6 +18,8 @@ public class Boomerang : MonoBehaviour
     }
     public void openUIPanel(){
         arrowPanel.GetComponent<RadomArrowDirections>().arrowQuantity = arrowQuantity;
+        arrowPanel.GetComponent<RadomArrowDirections>().interactableObject = "boomerang";
         arrowPanel.SetActive(true);
+        Debug.Log("working");
     }
 }

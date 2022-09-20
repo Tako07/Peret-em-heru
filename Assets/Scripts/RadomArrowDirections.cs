@@ -15,6 +15,10 @@ public class RadomArrowDirections : MonoBehaviour
     FMODUnity.StudioEventEmitter emisorflechas, emisorcuts, emisorsnap, emisorwhoosh, emisormal;
     public string interactableObject;
     [SerializeField] GameObject cutscene1;
+    [SerializeField] GameObject cutscene2;
+    [SerializeField] GameObject cutscene3;
+    [SerializeField] GameObject cutscene4;
+    [SerializeField] GameObject cutscene5;
 
     private CharacterInput arrowControls;
     private Player player;
@@ -161,6 +165,34 @@ public class RadomArrowDirections : MonoBehaviour
                     emisorsnap.Play();
                     emisorcuts.Play();
                     cutscene1.SetActive(true);
+                break;
+                case "boomerang":
+                    emisorcuts = GameObject.Find("cutscene_2").GetComponent<FMODUnity.StudioEventEmitter>();
+                    emisorsnap = GameObject.Find("snap").GetComponent<FMODUnity.StudioEventEmitter>();
+                    emisorsnap.Play();
+                    emisorcuts.Play();
+                    cutscene2.SetActive(true);
+                break;
+                case "copa":
+                    emisorcuts = GameObject.Find("cutscene_3").GetComponent<FMODUnity.StudioEventEmitter>();
+                    emisorsnap = GameObject.Find("snap").GetComponent<FMODUnity.StudioEventEmitter>();
+                    emisorsnap.Play();
+                    emisorcuts.Play();
+                    cutscene3.SetActive(true);
+                break;
+                case "topper":
+                    emisorcuts = GameObject.Find("cutscene_4").GetComponent<FMODUnity.StudioEventEmitter>();
+                    emisorsnap = GameObject.Find("snap").GetComponent<FMODUnity.StudioEventEmitter>();
+                    emisorsnap.Play();
+                    emisorcuts.Play();
+                    cutscene4.SetActive(true);
+                break;
+                case "statua":
+                    emisorcuts = GameObject.Find("cutscene_5").GetComponent<FMODUnity.StudioEventEmitter>();
+                    emisorsnap = GameObject.Find("snap").GetComponent<FMODUnity.StudioEventEmitter>();
+                    emisorsnap.Play();
+                    emisorcuts.Play();
+                    cutscene5.SetActive(true);
                 break;
             }
             return true;

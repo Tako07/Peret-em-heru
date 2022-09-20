@@ -21,6 +21,7 @@ public class Topper : MonoBehaviour
 
     public void openUIPanel(){
         arrowPanel.GetComponent<RadomArrowDirections>().arrowQuantity = arrowQuantity;
+        arrowPanel.GetComponent<RadomArrowDirections>().interactableObject = "topper";
         arrowPanel.SetActive(true);
     }
 }

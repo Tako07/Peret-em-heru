@@ -54,3 +54,4 @@ Assembly-CSharp.csproj
 Assembly-CSharp.csproj
 *.csproj
 *.kra~
+*.log

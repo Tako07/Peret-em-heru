@@ -23,7 +23,6 @@ public class Interactable : MonoBehaviour
     }
     // Update is called once per frame
     void Update(){
-
         bool isInteractable = playerControls.Player.InteractObjects.ReadValue<float>() > 0.1f;
         if(isInRange && isInteractable){
             interactAction.Invoke();

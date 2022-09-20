@@ -59,6 +59,8 @@
      <Compile Include="Assets\trigger_audio.cs" />
      <Compile Include="Assets\Scripts\Arrow.cs" />
      <Compile Include="Assets\Scripts\Dialogues\DialoguesDmmy.cs" />
+     <Compile Include="Assets\Scripts\OpenDialogs.cs" />
+     <Compile Include="Assets\Scripts\TextManager.cs" />
      <None Include="Assets\UI\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\UI\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\UI\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

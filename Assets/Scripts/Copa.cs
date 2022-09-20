@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Copa : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField] GameObject arrowPanel;
+    [SerializeField] GameObject dialogPanel;
+    [SerializeField] TMP_Text helpText;
     [SerializeField] int arrowQuantity;
     void Start()
     {
@@ -20,6 +23,8 @@ public class Copa : MonoBehaviour
     public void openUIPanel(){
         arrowPanel.GetComponent<RadomArrowDirections>().arrowQuantity = arrowQuantity;
         arrowPanel.GetComponent<RadomArrowDirections>().interactableObject = "copa";
+        helpText.text = "<i>Intenta recordar... memoriza y anota el orden correcto</i>";
         arrowPanel.SetActive(true);
+        dialogPanel.SetActive(true);
     }
 }

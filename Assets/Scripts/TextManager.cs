@@ -35,7 +35,7 @@ public class TextManager : MonoBehaviour
         "Esto se siente bien, se siente familiar y parece que este cáñamo aún tiene tinta fresca… ¡Mucho mejor!",
 
     };
-    private string [] escribaRiddleCompleted = new string[]{
+    private string [] riddleDialog = new string[]{
         "Intenta recordar... memoriza y anota el orden correcto"
     };
 
@@ -43,6 +43,57 @@ public class TextManager : MonoBehaviour
         "Claro, aquí dice Escriba…",
         "Así es… ¡Yo soy un Escriba! ",
         "Y uno excelente... pero ¿a qué costo?"
+    };
+
+    private string [] memoryBoomerangBegins = new string[] {
+        "Tan silencioso… como extraño lir a las bellas marismas, refrescarme en las aguas y cazar palomas… ¡o un ganso! ",
+        "Como quisiera volver a probar una oca a la parrilla…",
+        "Pero si es mi viejo qmA [arma-bastón], mi acompañante en tantas cacerías.",
+        "Sal... de esos... arbustos. ",
+        "Mucho mejor, ese no es lugar para tan fino qmA... regalo de mi querida hija, Ahmose... espera ¿tengo una hija?"
+    };
+    private string [] memoryBoomerangEnds = new string[] {
+        "Te hubiera dejado jugar ese día, al menos así ahora podría recordarte feliz antes de enfrentarme a este vacío."
+    };
+    
+    private string [] memoryCopaBegins = new string[] {
+        "Es esto…. ¿un loto? Tan azul… buen compañero en fiestas. Espera, ¡si es mi copa favorita!",
+        "Por fin podré aplacar la sed… ¡agua, cerveza o con un poco de suerte… algo más fuerte...para aplacar los nervios! ",
+        "Ni una gota de nada... pero esta copa me recuerda algo."
+    };
+    private string [] memoryCopaEnds = new string[] {
+        "Promesas vacías como esta copa",
+        "¿Será mi castigo recordar lo peor de mi, sin saber si quiera mi propio nombre?",
+        "Aquella tormenta de la que hablaba... ",
+        "No importa, será mejor que continúe."
+    };
+    
+    private string [] memoryTopperBegins = new string[] {
+        "¿Seré tragado por las arenas del isefet [caos]? ¡¿Vagaré por siempre sin ofrendas de pan y cerveza para mi pobre bah [espíritu]?!",
+        "Espera... ¡Yo recuerdo esa caja con forma de ganso! ¡Dentro debe estar un buen ganso para comer!",
+        "Aquí dice 'una ofrenda que da el rey a N---- de Abydos. Él da una ofrenda de aves y de todas las cosas buenas y puras para el ka [fuerza vital] del justo de voz.'"
+    };
+    private string [] memoryTopperEnds = new string[] {
+        "¡Hathsepsut, Ahmose!",
+        "¡¿Porqué no estuve a su lado cuando podía?!",
+        "Siento la segunda muerte acercarse y ni siquiera cuento con el consuelo de tener memorias suyas para enfrentarla."
+    };
+    
+        private string [] memoryEstatuaBegins = new string[] {
+        "¡ahí hay algo… o alguien! ¡Hey amigo!",
+        "Oh… ¿amiguito?... Esperaba que fueras más grande y vivo y hablante... otra cosa inmóvil en esta grandísima nada.",
+        "Aunque tu cara... Yo he visto esos ojos, ese cabello… antes. ¿Dónde te vi?",
+        "¡Grandísimos Dioses! ¡Soy yo! ¡Es mi rostro!"
+    };
+        private string [] memoryEstatuaEnds = new string[] {
+        "Aquí dice algo: El iluminado, el osiris Nebamun justo de voz",
+        "¡Nebamun! ¡NEBAMUN! ¡Ese es mi nombre! ¡Soy Nebamun, el escriba de Amón! ¡He recuperado mi nombre!",
+        "El iluminado, el Osiris… ",
+        "... ¡El OSIRIS!",
+        "¿El Osiris? ¿El muerto? ¿Cómo el mismo dios muerto?",
+        "Así que he cruzado el horizonte… he muerto, me he convertido en un Osiris… ",
+        "Ya no estoy en el mundo de los vivos, sino en la Duat.",
+        "Esta nada, este Nun [Agua primordial] me hacia sospechar. ¡Oh mi bella, noble y amada Hathshepsut! "
     };
     // Start is called before the first frame update
     void Start()
@@ -90,17 +141,10 @@ public class TextManager : MonoBehaviour
         dialogsPanel.SetActive(true);
     }
 
-    public void DialogNearCopa(){
+    public void DialogEndEscriba(){
+        dialogNumber = 0;
         Debug.Log("Starting dialog");
-        GetCurrentDialog("near_escriba");
-        GameObject.Find("Protagonist").GetComponent<Player>().enableMovement = false;
-        canvasText.text= currentDialog[0];
-        dialogsPanel.SetActive(true);
-    }
-
-    public void DialogNearTopper(){
-        Debug.Log("Starting dialog");
-        GetCurrentDialog("near_escriba");
+        GetCurrentDialog("end_escriba");
         GameObject.Find("Protagonist").GetComponent<Player>().enableMovement = false;
         canvasText.text= currentDialog[0];
         dialogsPanel.SetActive(true);
@@ -108,7 +152,49 @@ public class TextManager : MonoBehaviour
 
     public void DialogNearBoomerang(){
         Debug.Log("Starting dialog");
-        GetCurrentDialog("near_escriba");
+        GetCurrentDialog("near_boomerang");
+        GameObject.Find("Protagonist").GetComponent<Player>().enableMovement = false;
+        canvasText.text= currentDialog[0];
+        dialogsPanel.SetActive(true);
+    }
+
+    public void DialogEndBoomerang(){
+        dialogNumber = 0;
+        Debug.Log("Starting dialog");
+        GetCurrentDialog("end_boomerang");
+        GameObject.Find("Protagonist").GetComponent<Player>().enableMovement = false;
+        canvasText.text= currentDialog[0];
+        dialogsPanel.SetActive(true);
+    }
+    public void DialogNearTopper(){
+        Debug.Log("Starting dialog");
+        GetCurrentDialog("near_topper");
+        GameObject.Find("Protagonist").GetComponent<Player>().enableMovement = false;
+        canvasText.text= currentDialog[0];
+        dialogsPanel.SetActive(true);
+    }
+
+    public void DialogEndTopper(){
+        dialogNumber = 0;
+        Debug.Log("Starting dialog");
+        GetCurrentDialog("end_topper");
+        GameObject.Find("Protagonist").GetComponent<Player>().enableMovement = false;
+        canvasText.text= currentDialog[0];
+        dialogsPanel.SetActive(true);
+    }
+
+    public void DialogNearCopa(){
+        Debug.Log("Starting dialog");
+        GetCurrentDialog("near_copa");
+        GameObject.Find("Protagonist").GetComponent<Player>().enableMovement = false;
+        canvasText.text= currentDialog[0];
+        dialogsPanel.SetActive(true);
+    }
+
+    public void DialogEndCopa(){
+        dialogNumber = 0;
+        Debug.Log("Starting dialog");
+        GetCurrentDialog("end_copa");
         GameObject.Find("Protagonist").GetComponent<Player>().enableMovement = false;
         canvasText.text= currentDialog[0];
         dialogsPanel.SetActive(true);
@@ -116,7 +202,16 @@ public class TextManager : MonoBehaviour
 
     public void DialogNearStatua(){
         Debug.Log("Starting dialog");
-        GetCurrentDialog("near_escriba");
+        GetCurrentDialog("near_statua");
+        GameObject.Find("Protagonist").GetComponent<Player>().enableMovement = false;
+        canvasText.text= currentDialog[0];
+        dialogsPanel.SetActive(true);
+    }
+
+    public void DialogEndStatua(){
+        dialogNumber = 0;
+        Debug.Log("Starting dialog");
+        GetCurrentDialog("near_statua");
         GameObject.Find("Protagonist").GetComponent<Player>().enableMovement = false;
         canvasText.text= currentDialog[0];
         dialogsPanel.SetActive(true);
@@ -140,6 +235,33 @@ public class TextManager : MonoBehaviour
             break;
             case "near_escriba":
                 currentDialog =  nearEscriba;
+            break;
+            case "end_escriba":
+                currentDialog =  afterEscriba;
+            break;
+            case "near_boomerang":
+                currentDialog =  memoryBoomerangBegins;
+            break;
+            case "end_boomerang":
+                currentDialog =  memoryBoomerangEnds;
+            break;
+            case "near_topper":
+                currentDialog =  memoryTopperBegins;
+            break;
+            case "end_topper":
+                currentDialog =  memoryTopperEnds;
+            break;
+            case "near_copa":
+                currentDialog =  memoryCopaBegins;
+            break;
+            case "end_copa":
+                currentDialog =  memoryCopaEnds;
+            break;
+            case "near_statua":
+                currentDialog =  memoryEstatuaBegins;
+            break;
+            case "end_statua":
+                currentDialog =  memoryEstatuaEnds;
             break;
         }
     }

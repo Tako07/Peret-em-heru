@@ -19,6 +19,7 @@ public class RadomArrowDirections : MonoBehaviour
     [SerializeField] GameObject cutscene3;
     [SerializeField] GameObject cutscene4;
     [SerializeField] GameObject cutscene5;
+    [SerializeField] GameObject dialogPanel;
 
     private CharacterInput arrowControls;
     private Player player;
@@ -51,31 +52,21 @@ public class RadomArrowDirections : MonoBehaviour
         int randomPosition = Random.Range(0,4);
         return directions[randomPosition];
     }
-        //sonido de flechas
-
 
     private void DownPressed(InputAction.CallbackContext context){
-        //reproduce sonido
-
-
-
         emisorflechas = GameObject.Find("flecha_abajo").GetComponent<FMODUnity.StudioEventEmitter>();
         emisorwhoosh = GameObject.Find("whoosh").GetComponent<FMODUnity.StudioEventEmitter>();
         emisormal = GameObject.Find("errorsfx").GetComponent<FMODUnity.StudioEventEmitter>();
         emisorflechas.Play();
-
-
-
-
         if (arrowDirections[nextArrow] == 180){
             if (riddleCompleted())
                 emisorwhoosh.Play();
-                Debug.Log("Empezar cinematica");
         }
         else{
             emisormal.Play();
             emisorflechas.Stop();
             gameObject.SetActive(false);
+            dialogPanel.SetActive(false);
         }
     }
 
@@ -89,12 +80,12 @@ public class RadomArrowDirections : MonoBehaviour
         if (arrowDirections[nextArrow] == 0){
             if (riddleCompleted())
                 emisorwhoosh.Play();
-                Debug.Log("Empezar cinematica");
         }
         else{
             emisormal.Play();
             emisorflechas.Stop();
             gameObject.SetActive(false);
+            dialogPanel.SetActive(false);
         }
     }
 
@@ -106,14 +97,15 @@ public class RadomArrowDirections : MonoBehaviour
         emisorflechas.Play();
 
         if (arrowDirections[nextArrow] == 90){
-            if (riddleCompleted())
+            if (riddleCompleted()){
                 emisorwhoosh.Play();
-                Debug.Log("Empezar cinematica");
+            }
         }
         else{
             emisormal.Play();
             emisorflechas.Stop();
             gameObject.SetActive(false);
+            dialogPanel.SetActive(false);
         }
     }
 
@@ -127,12 +119,12 @@ public class RadomArrowDirections : MonoBehaviour
         if (arrowDirections[nextArrow] == -90){
             if (riddleCompleted())
                 emisorwhoosh.Play();
-                Debug.Log("Empezar cinematica");
         }
         else{
             emisormal.Play();
             emisorflechas.Stop();
             gameObject.SetActive(false);
+            dialogPanel.SetActive(false);
         }
     }
 
@@ -158,12 +150,14 @@ public class RadomArrowDirections : MonoBehaviour
         }
         else{
             gameObject.SetActive(false);
+            dialogPanel.SetActive(false);
             switch (interactableObject){
                 case "escriba":
                     emisorcuts = GameObject.Find("cutscene_1").GetComponent<FMODUnity.StudioEventEmitter>();
                     emisorsnap = GameObject.Find("snap").GetComponent<FMODUnity.StudioEventEmitter>();
                     emisorsnap.Play();
                     emisorcuts.Play();
+                    cutscene1.GetComponent<VideoPlayer>().item = interactableObject;
                     cutscene1.SetActive(true);
                 break;
                 case "boomerang":
@@ -171,6 +165,7 @@ public class RadomArrowDirections : MonoBehaviour
                     emisorsnap = GameObject.Find("snap").GetComponent<FMODUnity.StudioEventEmitter>();
                     emisorsnap.Play();
                     emisorcuts.Play();
+                    cutscene2.GetComponent<VideoPlayer>().item = interactableObject;
                     cutscene2.SetActive(true);
                 break;
                 case "copa":
@@ -178,6 +173,7 @@ public class RadomArrowDirections : MonoBehaviour
                     emisorsnap = GameObject.Find("snap").GetComponent<FMODUnity.StudioEventEmitter>();
                     emisorsnap.Play();
                     emisorcuts.Play();
+                    cutscene3.GetComponent<VideoPlayer>().item = interactableObject;
                     cutscene3.SetActive(true);
                 break;
                 case "topper":
@@ -185,6 +181,7 @@ public class RadomArrowDirections : MonoBehaviour
                     emisorsnap = GameObject.Find("snap").GetComponent<FMODUnity.StudioEventEmitter>();
                     emisorsnap.Play();
                     emisorcuts.Play();
+                    cutscene4.GetComponent<VideoPlayer>().item = interactableObject;
                     cutscene4.SetActive(true);
                 break;
                 case "statua":
@@ -192,6 +189,7 @@ public class RadomArrowDirections : MonoBehaviour
                     emisorsnap = GameObject.Find("snap").GetComponent<FMODUnity.StudioEventEmitter>();
                     emisorsnap.Play();
                     emisorcuts.Play();
+                    cutscene5.GetComponent<VideoPlayer>().item = interactableObject;
                     cutscene5.SetActive(true);
                 break;
             }

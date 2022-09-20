@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Boomerang : MonoBehaviour
 {
     [SerializeField] GameObject arrowPanel;
+    [SerializeField] GameObject dialogPanel;
+    [SerializeField] TMP_Text helpText;
     [SerializeField] int arrowQuantity;
     void Start()
     {
@@ -19,7 +22,9 @@ public class Boomerang : MonoBehaviour
     public void openUIPanel(){
         arrowPanel.GetComponent<RadomArrowDirections>().arrowQuantity = arrowQuantity;
         arrowPanel.GetComponent<RadomArrowDirections>().interactableObject = "boomerang";
+        helpText.text = "<i>Intenta recordar... memoriza y anota el orden correcto</i>";
         arrowPanel.SetActive(true);
+        dialogPanel.SetActive(true);
         Debug.Log("working");
     }
 }

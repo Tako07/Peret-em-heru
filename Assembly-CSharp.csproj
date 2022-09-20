@@ -58,6 +58,7 @@
      <Compile Include="Assets\Samples\Input System\1.3.0\Simple Demo\SimpleController_UsingState.cs" />
      <Compile Include="Assets\trigger_audio.cs" />
      <Compile Include="Assets\Scripts\Arrow.cs" />
+     <Compile Include="Assets\Scripts\Dialogues\DialoguesDmmy.cs" />
      <None Include="Assets\UI\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\UI\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\UI\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

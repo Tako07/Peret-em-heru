@@ -37,27 +37,31 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate() {
     // If input is pressed, Calls TryMove.
-        if(direction != Vector2.zero){
-            bool success = TryMove(direction);
+        if(enableMovement){
+            if(direction != Vector2.zero){
+                bool success = TryMove(direction);
 
-            if(!success){
-                success = TryMove(new Vector2(direction.x, 0));
-            
                 if(!success){
-                    success = TryMove(new Vector2(0, direction.y));
+                    success = TryMove(new Vector2(direction.x, 0));
+                
+                    if(!success){
+                        success = TryMove(new Vector2(0, direction.y));
+                    }
                 }
+            // Start walking animation
+            animator.SetBool("isWalking", success);
+            } else {
+                //Stop walking animation
+                animator.SetBool("isWalking", false);
+            } 
+            //Turn character to left or right 
+            if(direction.x < 0){
+                spriteRenderer.flipX = true;
+            } else if (direction.x > 0) {
+                spriteRenderer.flipX = false;
             }
-        // Start walking animation
-        animator.SetBool("isWalking", success);
-        } else {
-            //Stop walking animation
+        }else {
             animator.SetBool("isWalking", false);
-        } 
-        //Turn character to left or right 
-        if(direction.x < 0){
-            spriteRenderer.flipX = true;
-        } else if (direction.x > 0) {
-            spriteRenderer.flipX = false;
         }
 
     }

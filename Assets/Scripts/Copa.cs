@@ -19,6 +19,7 @@ public class Copa : MonoBehaviour
     }
     public void openUIPanel(){
         arrowPanel.GetComponent<RadomArrowDirections>().arrowQuantity = arrowQuantity;
+        arrowPanel.GetComponent<RadomArrowDirections>().interactableObject = "copa";
         arrowPanel.SetActive(true);
     }
 }

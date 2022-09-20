@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4768120136415169910}
   - component: {fileID: 4768120136415169911}
-  - component: {fileID: 4685707576623888450}
   m_Layer: 6
   m_Name: Asset_Tool_Boomerang
   m_TagString: Untagged
@@ -73,7 +72,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1180195565
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 4ea63ad51cfb01b418628e2e650731a6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -86,20 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4685707576623888450
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4768120136415169896}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf858e390ca6cd147bda2a4c82a77dff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  arrowPanel: {fileID: 0}
-  arrowQuantity: 4
 --- !u!1001 &5208634728916382047
 PrefabInstance:
   m_ObjectHideFlags: 0
